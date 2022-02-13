@@ -1,0 +1,179 @@
+body {
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+    width: 100%;
+    height: 600px;
+}
+
+.headerLogo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.flexnavbar {
+    list-style: none;
+}
+
+li {
+    padding: 0 2rem;
+}
+
+.intro {
+    font-size: x-large;
+    font-style: italic;
+    font-stretch: semi-condensed;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerCovid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoServicios {
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    color: blueviolet;
+}
+
+.fotoServicios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marginTop {
+    margin-top: 2.5rem;
+}
+
+.imgTalleres {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotoCovid {
+    width: auto;
+    height: auto;
+}
+
+.fotosIndex {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.fotosIndex img {
+    margin: 1rem;
+}
+
+.fotosFooter {
+    width: 35px;
+    height: 35px;
+}
+
+.footer {
+    display: flex;
+    font-family: 'Oxygen', sans-serif;
+    justify-content: space-evenly;
+}
+
+section {
+    background-color: rgb(218, 255, 158);
+}
+
+footer,
+nav {
+    background-color: bisque;
+}
+
+h1 {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-size: large;
+    font-weight: 800;
+    color: blueviolet;
+}
+
+.formularioColor {
+    color: blueviolet;
+}
+
+header,
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header {
+    justify-content: center;
+    padding: 30px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+section {
+    padding: 20px;
+}
+
+header,
+nav,
+section,
+footer {
+    border-radius: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .fotosIndex,
+    .fotoServicios,
+    .imgTalleres {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    img {
+        height: auto;
+        width: 80%;
+    }
+    li {
+        padding: 1rem;
+    }
+    .navbar {
+        justify-content: center;
+    }
+}
