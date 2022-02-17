@@ -10,11 +10,12 @@ body {
     padding: 0;
 }
 
-nav,
+
+/*nav,
 section,
 footer {
     border: solid 1px black;
-}
+}*/
 
 header {
     grid-area: header;
@@ -33,12 +34,13 @@ footer {
 }
 
 #main {
+    background-color: #f6d8d0;
     display: grid;
     grid-template-columns: 15% auto;
     grid-template-rows: 15% 10% auto 15%;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-areas: "header nav" "section section" "section section" "footer footer";
+    grid-template-areas: "header nav" "section section" "section section" "footer footer" "footer footer";
 }
 
 @media screen and (max-width:768px) {
