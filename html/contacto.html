@@ -13,94 +13,153 @@
 </head>
 
 <body>
-    <div id="main">
-        <header>
-            <a href="../index.html">
-                <img src="../img/emparLogo.jpeg" alt="Logo" class="headerLogo">
-            </a>
-        </header>
+    <div class="container-fluid">
+        <div class="row">
 
-        <nav class="navbar navbar-expand-lg navbar-light navbar-color">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="d-flex justify-content-between">
+                <div class="">
+                    <a href="../index.html">
+                        <img src="../img/emparLogo.jpeg" alt="Logo Empar" class="headerLogo">
+                    </a>
+                </div>
+                <div class="">
+                </div>
+                <div class="">
+                    <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+                        <div class="container-fluid px-3">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
-                        <a class="nav-link" href="covid-19.html">COVID</a>
-                        <a class="nav-link" href="talleres.html">TALLERES</a>
-                        <a class="nav-link" href="servicios.html">SERVICIOS</a>
-                        <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <section>
-            <form>
-                <fieldset>
-                    <br>
-                    <legend>
-                        <h2 class="formularioColor">Formulario de contacto</h2>
-                    </legend>
-                    <input type="text" placeholder="Nombre">
-                    <br>
-                    <br>
-                    <input type="email" placeholder="Email">
-                    <br>
-                    <br>
-                    <input type="number" placeholder="Telefono">
-                    <br><br>
-                    <label for="textarea" class="colorMensaje">Mensaje Opcional</label><br>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui"></textarea>
-                    <br><br>
-                    <input type="submit" value="Enviar formulario"> <input type="reset" value="Limpiar formulario">
-                </fieldset>
-            </form>
-        </section>
-
-        <footer id="footer" class="footer-1">
-            <div class="main-footer widgets-dark typo-light">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-md-6">
-                            <div class="widget subscribe no-box">
-                                <h5 class="widget-title">EMPAR SPA</h5>
-                                <p>Somos un espacio dedicado especialmente al cuidado de tu salud y belleza. Te ofrecemos una atencion personalizada y profesional. ¡Solicita tu turno! </p>
+                            <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                                    <a class="nav-link" href="../html/covid-19.html">COVID</a>
+                                    <a class="nav-link" href="../html/talleres.html">TALLERES</a>
+                                    <a class="nav-link" href="../html/servicios.html">SERVICIOS</a>
+                                    <a class="nav-link" href="../html/contacto.html">CONTACTO</a>
+                                </div>
                             </div>
                         </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-md-6">
-                            <div class="widget no-box text-end">
-                                <h5 class="widget-title">Contacto</h5>
+        <div class="row main">
 
-                                <p><a href="mailto:info@domain.com" title="glorythemes">empar-design@hotmail.com</a></p>
-                                <p><a href="https://wa.me/+5491153440036" target="_blank" title="glorythemes">Whatsapp</a></p>
-                                <ul class="social-footer2">
-                                    <li class="">
-                                        <a title="instagram" target="_blank" href="https://www.instagram.com/empar.ok/"><img alt="instagram" src="../img/instagram.png" class="fotosFooter"></a>
-                                    </li>
-                                </ul>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 my-5">
+                <section>
+                    <form>
+                        <fieldset>
+                            <br>
+                            <legend>
+                                <h2 class="formularioColor">Formulario de contacto</h2>
+                            </legend>
+                            <input type="text" placeholder="Nombre">
+                            <br>
+                            <br>
+                            <input type="email" placeholder="Email">
+                            <br>
+                            <br>
+                            <input type="number" placeholder="Telefono">
+                            <br><br>
+                            <label for="textarea" class="colorMensaje">Mensaje Opcional</label><br>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui"></textarea>
+                            <br><br>
+                            <input type="submit" value="Enviar formulario"> <input type="reset" value="Limpiar formulario">
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 my-5 textosIndex">
+                <iframe class="mapaResponsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.352534799098!2d-58.712932118066796!3d-34.574588413675116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd8e7abce1c9%3A0xcd1379c679716ac7!2sMacabi%20Country%20Club!5e0!3m2!1ses!2sar!4v1645484149055!5m2!1ses!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- Footer -->
+            <footer class="text-center text-lg-start bg-dark text-muted">
+
+                <!-- Section: Links  -->
+                <section class="bg-dark">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-12 col-xxl-3 col-xl-3 col-sm-12 col-md-3 col-lg-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Sobre Nosotros
+                                </h6>
+                                <p>
+                                    Somos un espacio dedicado especialmente al cuidado de tu salud y belleza. Te ofrecemos una atencion personalizada y profesional. ¡Solicita tu turno!
+                                </p>
                             </div>
-                        </div>
+                            <!-- Grid column -->
 
-                    </div>
-                </div>
-            </div>
+                            <!-- Grid column -->
+                            <div class="col-12 col-xxl-3 col-xl-3 col-sm-12 col-md-3 col-lg-3 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Servicios
+                                </h6>
+                                <p>
+                                    <a href="servicios.html" class="text-reset">Pestañas</a>
+                                </p>
+                                <p>
+                                    <a href="servicios.html" class="text-reset">Esculpidas</a>
+                                </p>
+                                <p>
+                                    <a href="servicios.html" class="text-reset">Masajes</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
 
-            <div class="footer-copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <p>Empar© 2022. Todos los derechos reservados.</p>
+
+
+                            <!-- Grid column -->
+                            <div class="col-12 col-xxl-3 col-xl-3 col-sm-12 col-md-3 col-lg-3 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Contacto
+                                </h6>
+                                <p> Buenos Aires, Bella Vista</p>
+                                <p>
+                                    empar-spa@gmail.com
+                                </p>
+                                <p> +54 9 1153440036</p>
+
+                            </div>
+                            <!-- Grid column -->
+                            <!-- Grid column -->
+                            <div class="col-12 col-xxl-3 col-xl-3 col-sm-12 col-md-3 col-lg-3 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    RRSS
+                                </h6>
+                                <a href="https://www.instagram.com/empar.ok/"><img src="../img/instagram.png" height="20px" width="20px" alt="Logo de Instagram"></a>
+                                <a href="https://www.facebook.com/EMPAR-Dise%C3%B1o-y-Belleza-1511007562542622"><img src="../img/facebook.png" height="20px" width="20px" alt="Logo de Facebook"></a>
+
+                            </div>
+                            <!-- Grid column -->
                         </div>
+                        <!-- Grid row -->
                     </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2022 Todos los derechos reservados:
+                    <a class="text-reset fw-bold">Empar Spa</a>
                 </div>
-            </div>
-        </footer>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+        </div>
+
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
