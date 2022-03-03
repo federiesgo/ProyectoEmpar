@@ -1,12 +1,28 @@
+/*==========CREANDO MAPA================*/
+.pestanas {
+  background-color: #f6d8d0;
+}
+
+.esculpidas {
+  background-color: #f75e34;
+}
+
+.masajes {
+  background-color: #d9e072;
+}
+
+/*==========CREANDO MAPA================*/
+/*=======MIXINS======*/
+/*======MIXINS=======*/
 #main {
-  width: 100%;
   height: 600px;
+  width: 100%;
 }
 
 .headerLogo {
   border-radius: 50%;
-  width: 100px;
   height: 100px;
+  width: 100px;
 }
 
 .navbar-toggler {
@@ -79,28 +95,9 @@ li {
           align-items: center;
 }
 
-.textoServicios {
-  font-family: 'Oxygen', sans-serif;
-  text-align: center;
-  color: blueviolet;
-}
-
-.fotoServicios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.marginTop {
-  margin-top: 2.5rem;
-}
-
 .fotoTalleres {
-  width: 650px;
   height: 750px;
+  width: 650px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4rem;
@@ -112,8 +109,8 @@ li {
 }
 
 .fotoCovid {
-  width: auto;
   height: auto;
+  width: auto;
 }
 
 .fotosIndex {
@@ -131,8 +128,8 @@ li {
 }
 
 .fotosFooter {
-  width: 30px;
   height: 30px;
+  width: 30px;
 }
 
 section {
@@ -184,8 +181,8 @@ header {
 }
 
 .imgIndex {
-  width: 350px;
   height: 350px;
+  width: 350px;
 }
 
 .imgResponsive {
@@ -212,27 +209,27 @@ section {
 input[type=text],
 input[type=email],
 input[type=number] {
-  width: 80px;
   height: 50px;
+  width: 80px;
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
 input:focus {
-  width: 100px;
   height: 70px;
+  width: 100px;
   font-size: 24px;
 }
 
 #divAnim {
-  width: 100px;
   height: 100px;
+  width: 100px;
   background-color: green;
 }
 
 #divTransition {
-  width: 400px;
   height: 400px;
+  width: 400px;
   background-color: red;
   -webkit-transition: height 2s;
   transition: height 2s;
@@ -254,17 +251,42 @@ input:focus {
 }
 
 /*========MODIFICANDO PAGINA SERVICIOS==========*/
-section h1 div {
-  font-weight: bold;
+section #tituloServicios {
   color: #000;
-  background-color: #f6d8d0;
   margin-bottom: 2.5rem;
+  text-align: center;
 }
 
-section p1 h4 {
-  color: black;
+section #tituloServicios h1 {
   font-family: 'Oxygen', sans-serif;
   text-align: center;
+  font-weight: bold;
+}
+
+section .pServicios, section .pServicios--2, section .pServicios--3 {
+  color: brown;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  font-size: larger;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+section .pServicios--2 {
+  color: blue;
+}
+
+section .pServicios--3 {
+  color: violet;
+}
+
+section #fotoServicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 /*========MODIFICANDO PAGINA SERVICIOS==========*/
