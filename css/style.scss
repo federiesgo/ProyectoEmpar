@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
 /*==========CREANDO MAPA================*/
 
-$estilos:(colorLetra: brown, centrado:center, fuente:larger);
-$textos: (pestanas: #f6d8d0, esculpidas: #f75e34, masajes: #d9e072);
+$estilos:(colorLetra: brown,
+centrado:center,
+fuente:larger);
+$textos: (pestanas: #f6d8d0,
+esculpidas: #f75e34,
+masajes: #d9e072);
 @each $texto,
 $color in $textos {
     .#{$texto} {
@@ -22,12 +27,14 @@ $color in $textos {
     justify-content: space-evenly;
 }
 
-@mixin marginTopyBot ($top, $bot) {
+@mixin marginTopyBot ($top,
+$bot) {
     margin-top: $top;
     margin-bottom: $bot;
 }
 
-@mixin sizes($height, $width) {
+@mixin sizes($height,
+$width) {
     height: $height;
     width: $width;
 }
@@ -41,12 +48,14 @@ $color in $textos {
 /*======MIXINS=======*/
 
 #main {
-    @include sizes(600px, 100%);
+    @include sizes(600px,
+    100%);
 }
 
 .headerLogo {
     border-radius: 50%;
-    @include sizes(100px, 100px);
+    @include sizes(100px,
+    100px);
 }
 
 .navbar-toggler {
@@ -102,7 +111,8 @@ li {
 }
 
 .fotoTalleres {
-    @include sizes(750px, 650px);
+    @include sizes(750px,
+    650px);
     @include marginLeftyRightAuto();
     margin-top: 4rem;
 }
@@ -112,7 +122,8 @@ li {
 }
 
 .fotoCovid {
-    @include sizes(auto, auto);
+    @include sizes(auto,
+    auto);
 }
 
 .fotosIndex {
@@ -125,7 +136,8 @@ li {
 }
 
 .fotosFooter {
-    @include sizes(30px, 30px);
+    @include sizes(30px,
+    30px);
 }
 
 section {
@@ -168,15 +180,18 @@ header {
 }
 
 .imgIndex {
-    @include sizes(350px, 350px);
+    @include sizes(350px,
+    350px);
 }
 
 .imgResponsive {
-    @include sizes(100%, 100%);
+    @include sizes(100%,
+    100%);
 }
 
 .mapaResponsive {
-    @include sizes(100%, 100%);
+    @include sizes(100%,
+    100%);
 }
 
 .colorMensaje {
@@ -195,12 +210,14 @@ input:focus {
 }
 
 #divAnim {
-    @include sizes(100px, 100px);
+    @include sizes(100px,
+    100px);
     background-color: green;
 }
 
 #divTransition {
-    @include sizes(400px, 400px);
+    @include sizes(400px,
+    400px);
     background-color: red;
     transition: height 2s;
     transition: height 2s, width 1s;
@@ -208,7 +225,8 @@ input:focus {
 }
 
 #divTransition:hover {
-    @include sizes(200px, 300px);
+    @include sizes(200px,
+    300px);
     background-color: green;
 }
 
@@ -230,10 +248,12 @@ section {
     }
     .pServicios {
         color: map-get($estilos, colorLetra);
-        font-family: 'Oxygen', sans-serif;
+        font-family: "Poiret One", sans-serif;
         text-align: map-get($estilos, centrado);
         font-size: map-get($estilos, fuente);
-        @include marginTopyBot(1rem, 5rem)
+        font-weight: bold;
+        @include marginTopyBot(1rem,
+        5rem)
     }
     .pServicios--2 {
         @extend .pServicios;
@@ -254,6 +274,10 @@ section {
 
 .fondoSection {
     background-color: #F5D8D0;
+}
+
+.fuenteSpa {
+    font-family: "Poiret One";
 }
 
 
@@ -620,7 +644,8 @@ fieldset {
     .fotoCovid {
         display: flex;
         justify-content: center;
-        @include sizes(100%, 100%);
+        @include sizes(100%,
+        100%);
         margin: 0 auto;
     }
 }

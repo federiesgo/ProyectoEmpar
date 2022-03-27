@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
 /*==========CREANDO MAPA================*/
 .pestanas {
   background-color: #f6d8d0;
@@ -253,9 +254,10 @@ section #tituloServicios h1 {
 
 section .pServicios, section .pServicios--2, section .pServicios--3 {
   color: brown;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Poiret One", sans-serif;
   text-align: center;
   font-size: larger;
+  font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 5rem;
 }
@@ -283,6 +285,10 @@ section #fotoServicios {
 
 .fondoSection {
   background-color: #F5D8D0;
+}
+
+.fuenteSpa {
+  font-family: "Poiret One";
 }
 
 /*========
