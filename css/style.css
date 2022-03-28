@@ -291,6 +291,11 @@ section #fotoServicios {
   font-family: "Poiret One";
 }
 
+.textoCovid {
+  text-align: center;
+  background-color: #0CF;
+}
+
 /*========
 Bordes section
 ==========*/
